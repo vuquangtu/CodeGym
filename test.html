@@ -1,16 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <style>
+        table.chessboard {
+            border-collapse: collapse;
+        }
+
+        table.chessboard td {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 30px;
+        }
+
+        .black {
+            background-color: #769656;
+            color: #fff;
+        }
+
+        .white {
+            background-color: #eeeed2;
+            color: #000;
+        }
+    </style>
 </head>
 <body>
-<label for="myDropdown">Chọn một mục:</label>
-<select id="myDropdown">
-    <option value="lua-chon-1">Lựa chọn 1</option>
-    <option value="lua-chon-2">Lựa chọn 2</option>
-    <option value="lua-chon-3">Lựa chọn 3</option>
-    <option value="lua-chon-4">Lựa chọn 4</option>
-</select>
+<table class="chessboard">
+    <tr>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+    </tr>
+    <tr>
+        <td class="white">♙</td>
+        <td class="black">♙</td>
+        <td class="white">♙</td>
+        <td class="black">♙</td>
+        <td class="white">♙</td>
+        <td class="black">♙</td>
+        <td class="white">♙</td>
+        <td class="black">♙</td>
+    </tr>
+    <!-- Add more rows here for empty spaces or other pieces -->
+</table>
 </body>
 </html>

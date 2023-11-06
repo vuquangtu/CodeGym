@@ -1,0 +1,17 @@
+table {
+
+    width: 50%;
+    margin: 0 auto;
+}
+
+th {
+    background-color: yellow;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
