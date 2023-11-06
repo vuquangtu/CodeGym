@@ -1,0 +1,14 @@
+<style>
+#1 {
+    border: none; /* Loại bỏ kẻ bảng */
+    width: 100%; /* Đặt chiều rộng 100% để bảng căn chỉnh với khung chứa của nó */
+}
+
+.align-left {
+    text-align: left; /* Căn lề văn bản về phía trái trong cột 1 */
+}
+
+.align-right {
+    text-align: right; /* Căn lề văn bản về phía phải trong cột 2 */
+}
+</style>

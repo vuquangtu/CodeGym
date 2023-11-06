@@ -1,0 +1,33 @@
+
+h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: yellow;
+}
+<style>
+ #1 {
+     border: none; /* Loại bỏ kẻ bảng */
+     width: 100%; /* Đặt chiều rộng 100% để bảng căn chỉnh với khung chứa của nó */
+ }
+
+.align-left {
+    text-align: left; /* Căn lề văn bản về phía trái trong cột 1 */
+}
+
+.align-right {
+    text-align: right; /* Căn lề văn bản về phía phải trong cột 2 */
+}
+</style>
